@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Mine Sweeper Game</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div id="myForm">
+    <form name="myForm" method="post">
+        <input type="number" class="input-fields" name="table" value="25" placeholder="Row &amp; Columns Number">
+        <input type="number" class="input-fields" name="mineNumb" value="65" placeholder="Number of Mines">
+        <input type="button" class="button" value="submit" onclick="runGame()">
+    </form>
+</div>
+
+<div id="myContainer"></div>
+<div id="gameStatus"></div>
+<div class="stopwatch"></div>
+
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+</body>
+</html>
