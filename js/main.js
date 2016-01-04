@@ -187,6 +187,8 @@ var createTable = function createTable(tableParam, cellValues) {
     //validation
     if (mineNumb < 0 || tableBoard < 0) {
         myContainer.innerHTML = '<span>Please use a positive number.</span>';
+    } else  if (tableBoard > 25) {
+        myContainer.innerHTML = '<span>Please setup less columns and rows.</span>';
     }
     //validation
     else if (mineNumb < totalCell) {
