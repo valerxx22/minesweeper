@@ -110,7 +110,17 @@ input[type=number]::-webkit-outer-spin-button {
 
 .cell-bomb {
     opacity: 1 !important;
-    background-image: url(https://cdn2.iconfinder.com/data/icons/botcons/100/android-bot-round-sweeper-angry-fly-red-128.png);
+    background-image: url(../img/bomb.png);
+    background-size: 40px auto;
+    background-position: 50% 50%;
+    background-color: #2b1a2b !important;
+    color: red !important;
+    font-size: 0;
+}
+
+.cell-bomb-active {
+    opacity: 1 !important;
+    background-image: url(../img/bomb-active.png);
     background-size: 40px auto;
     background-position: 50% 50%;
     background-color: #2b1a2b !important;
@@ -138,7 +148,7 @@ input[type=number]::-webkit-outer-spin-button {
 .flag-bomb {
     opacity: 1 !important;
     font-size: 18px;
-    background-image: url(https://cdn1.iconfinder.com/data/icons/anchor/128/flag.png);
+    background-image: url(../img/flag.png);
     background-size: 40px auto;
     background-position: 50% 50%;
     background-repeat: no-repeat;

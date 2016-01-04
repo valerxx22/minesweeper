@@ -286,6 +286,7 @@ function clickHandler() {
             var isBomb = $('td').filter(function () {
                 return $(this).text() == '*';
             });
+            self.addClass('cell-bomb-active');
             isBomb.removeClass('flag-bomb').addClass('cell-bomb').off();
             gameStatus.innerHTML = '<h1 class="game-over">Game Over</h1> <br> <input type="button" class="button button-hover" value="Try Again" onclick="runGame()">';
             gameOver = true;
